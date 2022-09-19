@@ -25,7 +25,10 @@ otcdocs_auto_name = False
 otcdocs_auto_version = False
 
 project = 'Dedicated Host'
-otcdocs_repo_name = 'docs/dedicated-host'
+otcdocs_repo_name = 'opentelekomcloud-docs/dedicated-host'
+# Those variables are required for edit/bug links
+
+
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -69,11 +72,9 @@ show_authors = False
 html_theme = 'otcdocs'
 
 # Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
+# further. For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'disable_search': True,
-    'site_name': 'Internal Documentation Portal'
 }
 
 # The name for this set of Sphinx documents.  If None, it defaults to
