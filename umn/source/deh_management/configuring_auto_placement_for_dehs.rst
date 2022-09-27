@@ -29,4 +29,3 @@ Verification
 Assume that you have two DeHs with **Auto Placement** enabled. The **vCPUs** and **Memory (GB)** values of DeH A are **83/100** and **167/232**, and those of DeH B are **100/100** and **232/232**. When creating an ECS, select **Auto placement** for **DeH**. Then the system automatically creates the ECS on DeH B to balance the load among two DeHs.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-

@@ -40,4 +40,3 @@ Follow-up Operations
 :ref:`Managing ECSs on a DeH <deh_01_0024>`
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-
