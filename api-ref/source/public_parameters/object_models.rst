@@ -10,7 +10,6 @@ Objects
 
 DeH management includes querying the DeH list, viewing DeH details, modifying DeH attributes, allocating a DeH, and releasing a DeH.
 
-.. _object-models-1:
 
 Object Models
 -------------
