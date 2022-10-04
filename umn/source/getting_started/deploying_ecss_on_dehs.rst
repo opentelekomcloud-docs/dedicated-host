@@ -47,4 +47,3 @@ Results
 Click **Back to ECS List** and wait until the ECS is created. You can view information about the newly created ECS, including the name/ID, specifications, and IP address.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-

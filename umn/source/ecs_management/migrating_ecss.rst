@@ -56,4 +56,3 @@ Only a stopped ECS can be migrated.
       The ECS status changes from **Resizing** to **Stopped** during ECS migration.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-

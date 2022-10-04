@@ -34,10 +34,6 @@ Procedure
    If you do not want to change the name, click |image4|.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-
 .. |image2| image:: /_static/images/en-us_image_0238393799.png
-
 .. |image3| image:: /_static/images/en-us_image_0238393801.png
-
 .. |image4| image:: /_static/images/en-us_image_0238393800.png
-

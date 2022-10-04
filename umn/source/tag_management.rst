@@ -38,7 +38,6 @@ On the **Dedicated Host** page, you can search for the desired DeHs by tag key a
 
 #. In the upper right corner of the DeH list, click **Search by Tag** to show the search page.
 
-   .. _deh_01_0038__fig1051216257312:
 
    .. figure:: /_static/images/en-us_image_0181721054.png
       :alt: **Figure 1** Searching for DeHs by tag
@@ -59,4 +58,3 @@ On the **Dedicated Host** page, you can search for the desired DeHs by tag key a
    The system searches for DeHs based on tag keys or tag values.
 
 .. |image1| image:: /_static/images/en-us_image_0238393803.png
-

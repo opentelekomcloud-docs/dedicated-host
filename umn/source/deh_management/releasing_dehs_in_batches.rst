@@ -39,4 +39,3 @@ Results
 The released DeHs are not displayed in the DeH list.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-

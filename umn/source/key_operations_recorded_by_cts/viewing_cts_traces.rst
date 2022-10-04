@@ -29,7 +29,6 @@ Viewing CTS Traces
 
 #. Click |image2| on the left of the record to be queried to extend its details.
 
-   .. _deh_01_0041__fig2124535133313:
 
    .. figure:: /_static/images/en-us_image_0162743969.png
       :alt: **Figure 1** Trace details
@@ -39,7 +38,6 @@ Viewing CTS Traces
 
 #. Locate a trace and click **View Trace** in the **Operation** column.
 
-   .. _deh_01_0041__fig1277451665615:
 
    .. figure:: /_static/images/en-us_image_0127704907.png
       :alt: **Figure 2** **View Trace**
@@ -50,6 +48,4 @@ Viewing CTS Traces
    For details about the key fields in the CTS trace structure, see the *Cloud Trace Service User Guide*.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-
 .. |image2| image:: /_static/images/en-us_image_0210486176.jpg
-

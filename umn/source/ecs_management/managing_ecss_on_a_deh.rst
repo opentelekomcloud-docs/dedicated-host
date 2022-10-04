@@ -47,4 +47,3 @@ For details, see `Creating an ECS <https://docs.otc.t-systems.com/en-us/usermanu
    -  When selecting an ECS type, pay attention to mapping between the ECS type and the DeH type. If no matched DeH resources exist, ECSs cannot be created.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-
