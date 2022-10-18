@@ -198,21 +198,21 @@ Response
 
    .. table:: **Table 7** **resource_tag** field description
 
-      +-----------------------+-----------------------+---------------------------------------------------------------+
-      | Parameter             | Type                  | Description                                                   |
-      +=======================+=======================+===============================================================+
-      | key                   | String                | Specifies the tag key.                                        |
-      |                       |                       |                                                               |
-      |                       |                       | -  It contains a maximum of 36 Unicode characters.            |
-      |                       |                       | -  This field cannot be left blank.                           |
-      |                       |                       | -  It cannot contain the following ASCII characters: =*<>\|/, |
-      +-----------------------+-----------------------+---------------------------------------------------------------+
-      | value                 | String                | Specifies the tag value.                                      |
-      |                       |                       |                                                               |
-      |                       |                       | -  Each value contains a maximum of 43 Unicode characters.    |
-      |                       |                       | -  This field can be left blank.                              |
-      |                       |                       | -  It cannot contain the following ASCII characters: =*<>\|/, |
-      +-----------------------+-----------------------+---------------------------------------------------------------+
+      +-----------------------+-----------------------+-------------------------------------------------------------------+
+      | Parameter             | Type                  | Description                                                       |
+      +=======================+=======================+===================================================================+
+      | key                   | String                | Specifies the tag key.                                            |
+      |                       |                       |                                                                   |
+      |                       |                       | -  It contains a maximum of 36 Unicode characters.                |
+      |                       |                       | -  This field cannot be left blank.                               |
+      |                       |                       | -  It cannot contain the following ASCII characters: ``=*<>\|/,`` |
+      +-----------------------+-----------------------+-------------------------------------------------------------------+
+      | value                 | String                | Specifies the tag value.                                          |
+      |                       |                       |                                                                   |
+      |                       |                       | -  Each value contains a maximum of 43 Unicode characters.        |
+      |                       |                       | -  This field can be left blank.                                  |
+      |                       |                       | -  It cannot contain the following ASCII characters: ``=*<>\|/,`` |
+      +-----------------------+-----------------------+-------------------------------------------------------------------+
 
 -  Example response
 

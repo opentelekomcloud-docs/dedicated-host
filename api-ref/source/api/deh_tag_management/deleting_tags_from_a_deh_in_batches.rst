@@ -64,13 +64,13 @@ Request
       |                 |                 |                 |                                                                      |
       |                 |                 |                 | -  It contains a maximum of 36 Unicode characters.                   |
       |                 |                 |                 | -  The value cannot be empty.                                        |
-      |                 |                 |                 | -  It cannot contain the following ASCII characters: =*<>\|/,        |
+      |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
       |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
       +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
       | value           | String          | No              | Specifies the tag value.                                             |
       |                 |                 |                 |                                                                      |
       |                 |                 |                 | -  It contains a maximum of 43 Unicode characters.                   |
-      |                 |                 |                 | -  It cannot contain the following ASCII characters: =*<>\|/,        |
+      |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
       |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
       +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
 
