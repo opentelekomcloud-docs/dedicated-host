@@ -33,7 +33,6 @@ Viewing CTS Traces
    .. figure:: /_static/images/en-us_image_0162743969.png
       :alt: **Figure 1** Trace details
 
-
       **Figure 1** Trace details
 
 #. Locate a trace and click **View Trace** in the **Operation** column.
@@ -41,7 +40,6 @@ Viewing CTS Traces
 
    .. figure:: /_static/images/en-us_image_0127704907.png
       :alt: **Figure 2** **View Trace**
-
 
       **Figure 2** **View Trace**
 
