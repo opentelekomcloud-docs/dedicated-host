@@ -14,7 +14,6 @@ Dedicated Host (DeH) provides dedicated physical hosts to ensure isolation, secu
 .. figure:: /_static/images/en-us_image_0161118470.png
    :alt: **Figure 1** Differences between DeHs and common ECSs
 
-
    **Figure 1** Differences between DeHs and common ECSs
 
 The physical resources of the DeH are not shared with others, while the physical resources of the ECS may be shared with others. You can obtain the detailed information on the DeH, such as sockets, physical cores, CPU type, and memory size. So, you can create ECSs of specified flavors based on the DeH flavor.
