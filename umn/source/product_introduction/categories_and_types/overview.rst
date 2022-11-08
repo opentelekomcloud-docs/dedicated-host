@@ -16,3 +16,4 @@ Currently, the following DeH categories and types are supported:
 -  Dedicated general-purpose DeHs
 -  Memory-optimized DeHs
 -  High-performance DeHs
+-  Ultra-high I/O DeHs

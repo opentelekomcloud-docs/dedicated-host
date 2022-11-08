@@ -38,7 +38,7 @@ Procedure
 
    .. note::
 
-      -  To create an ECS without specifying a DeH, click Create ECS in the upper right corner of the page. Ensure that the auto placement function is enabled for at least one DeH.
+      -  To create an ECS without specifying a DeH, click **Create ECS** in the upper right corner of the page. Ensure that the auto placement function is enabled for at least one DeH.
       -  When selecting an ECS type, pay attention to mapping between the ECS type and the DeH type. If no matched DeH resources exist, ECSs cannot be created.
 
 Results

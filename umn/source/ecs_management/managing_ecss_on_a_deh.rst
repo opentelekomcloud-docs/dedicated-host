@@ -38,7 +38,7 @@ Procedure
 Related Operations
 ------------------
 
-On the **ECSs on the DeH** tab page, you can also click Create ECS to create ECSs.
+On the **ECSs on the DeH** tab page, you can also click Create to create ECSs.
 
 For details, see `Creating an ECS <https://docs.otc.t-systems.com/en-us/usermanual/ecs/en-us_topic_0021831611.html>`__.
 

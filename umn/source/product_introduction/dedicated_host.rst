@@ -21,7 +21,7 @@ The physical resources of the DeH are not shared with others, while the physical
 ECS Deployment Modes
 --------------------
 
-You can use your DeH resources by the following two methods:
+You can use your DeH resources by the following methods:
 
 -  Select a DeH to deploy ECSs.
 

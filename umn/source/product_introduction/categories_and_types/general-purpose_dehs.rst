@@ -8,7 +8,7 @@ General-Purpose DeHs
 Overview
 --------
 
-General-purpose DeHs can accommodate ECSs with regular workloads and short-term workload surges.
+General-purpose DeHs can accommodate ECSs with regular workloads and short-term workload surges. They use a CPU-unbound scheduling scheme. vCPUs are randomly allocated to idle CPU hyper threads based on the system loads. If traffic loads are light, the computing performance is high. However, if traffic loads are heavy, vCPUs of different ECSs compete for physical CPU resources, resulting in unstable computing performance.
 
 General-purpose DeHs are classified into general, s2, s2-medium, and s3 types.
 

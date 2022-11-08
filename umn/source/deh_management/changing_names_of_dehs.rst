@@ -25,15 +25,15 @@ Procedure
 
    The DeH details page is displayed.
 
-#. Click |image2| next to the DeH name.
+#. Change the name and click |image2|.
+
+   If you do not want to change the name, click |image3|.
+
+#. Click |image4| next to the DeH name.
 
    The name becomes editable.
 
-#. Change the name and click |image3|.
-
-   If you do not want to change the name, click |image4|.
-
 .. |image1| image:: /_static/images/en-us_image_0210485079.png
-.. |image2| image:: /_static/images/en-us_image_0238393799.png
-.. |image3| image:: /_static/images/en-us_image_0238393801.png
-.. |image4| image:: /_static/images/en-us_image_0238393800.png
+.. |image2| image:: /_static/images/en-us_image_0238393801.png
+.. |image3| image:: /_static/images/en-us_image_0238393800.png
+.. |image4| image:: /_static/images/en-us_image_0000001176881132.png
