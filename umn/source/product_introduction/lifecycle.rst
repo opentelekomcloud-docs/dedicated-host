@@ -14,7 +14,7 @@ A DeH has different statuses throughout its lifecycle.
    +=======================+=======================+====================================================================================+
    | Normal                | Stable                | The DeH is properly running and can provide services for you.                      |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------+
-   | Faulty                | Stable                | The DeH becomes faulty and cannot provide services. Contact the customer service.  |
+   | Faulty                | Faulty                | The DeH becomes faulty and cannot provide services. Contact the customer service.  |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------+
    | Deleted               | Intermediate          | The DeH is deleted.                                                                |
    |                       |                       |                                                                                    |

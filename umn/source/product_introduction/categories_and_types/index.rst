@@ -12,6 +12,7 @@ Categories and Types
 -  :ref:`Memory-Optimized DeHs <en-us_topic_0105897861>`
 -  :ref:`High-Performance DeHs <en-us_topic_0046252753>`
 -  :ref:`Disk-Intensive DeHs <en-us_topic_0046252754>`
+-  :ref:`Ultra-High I/O DeHs <deh_01_0055>`
 
 .. toctree::
    :maxdepth: 1
@@ -24,3 +25,4 @@ Categories and Types
    memory-optimized_dehs
    high-performance_dehs
    disk-intensive_dehs
+   ultra-high_i_o_dehs
