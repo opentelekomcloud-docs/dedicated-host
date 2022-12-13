@@ -5,9 +5,9 @@
 FAQs
 ====
 
--  :ref:`DeH FAQs <en-us_topic_0133443780>`
--  :ref:`ECS FAQs <en-us_topic_0133480674>`
--  :ref:`Billing FAQs <en-us_topic_0133480680>`
+-  :ref:`DeH FAQs <deh_faq_0100>`
+-  :ref:`ECS FAQs <deh_faq_0200>`
+-  :ref:`Billing FAQs <deh_faq_0300>`
 
 .. toctree::
    :maxdepth: 1

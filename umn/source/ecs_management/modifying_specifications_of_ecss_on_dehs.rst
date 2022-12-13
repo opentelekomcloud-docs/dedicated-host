@@ -39,6 +39,6 @@ Procedure
 
 #. After the ECS status changes to **Stopped**, click **Modify Specifications** in the **Operation** column.
 
-   The **Modify ECS Specifications** page is displayed. Modify the specifications by following the instructions described in Elastic Cloud Server User Guide.
+   The **Modify ECS Specifications** page is displayed. Modify the specifications by following the instructions described in *Elastic Cloud Server User Guide*.
 
 .. |image1| image:: /_static/images/en-us_image_0210485079.png

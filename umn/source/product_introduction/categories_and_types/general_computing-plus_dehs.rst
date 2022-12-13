@@ -8,7 +8,7 @@ General Computing-Plus DeHs
 Overview
 --------
 
-General computing-plus DeHs can house vCPUs and memory of larger specifications. In addition, general computing-plus DeHs use latest-generation network acceleration engines and the Data Plane Development Kit (DPDK) to provide higher network performance than general computing DeHs.
+Compared with general computing DeHs, general computing-plus DeHs provide dedicated vCPUs, featuring powerful performance. In addition, the DeHs use latest-generation network acceleration engines and Data Plane Development Kit (DPDK) to provide higher network performance, meeting requirements in different scenarios.
 
 General computing-plus DeHs include only c4 DeHs.
 
@@ -19,12 +19,12 @@ DeH Specifications
 
 .. table:: **Table 1** Specifications of c4 DeHs
 
-   +-------------+-------------------+--------------------------+----------------------------------------------------------------------------------+-------------+
-   | Flavor Type | Number of Sockets | Number of Physical Cores | Hardware Specifications                                                          | vCPUs       |
-   +=============+===================+==========================+==================================================================================+=============+
-   | c4          | 2                 | 22                       | -  CPU: Intel Cascade Lake 6266 (frequency: 3.00 GHz; Turbo frequency: 3.40 GHz) | 74          |
-   |             |                   |                          | -  Memory: 296 GB (or 303,104 MB)                                                |             |
-   +-------------+-------------------+--------------------------+----------------------------------------------------------------------------------+-------------+
+   +-------------+--------------------------+--------------------------+----------------------------------------------------------------------------------+-------------+
+   | Flavor Type | Number of CPUs (Sockets) | Number of Physical Cores | Hardware Specifications                                                          | vCPUs       |
+   +=============+==========================+==========================+==================================================================================+=============+
+   | c4          | 2                        | 22                       | -  CPU: Intel Cascade Lake 6266 (frequency: 3.00 GHz; Turbo frequency: 3.40 GHz) | 74          |
+   |             |                          |                          | -  Memory: 296 GB (or 303,104 MB)                                                |             |
+   +-------------+--------------------------+--------------------------+----------------------------------------------------------------------------------+-------------+
 
 .. note::
 
