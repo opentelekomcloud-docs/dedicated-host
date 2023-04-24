@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0131337242.html
+:original_name: deh_01_0056.html
 
-.. _en-us_topic_0131337242:
+.. _deh_01_0056:
 
 Categories and Types
 ====================
@@ -8,10 +8,10 @@ Categories and Types
 -  :ref:`Overview <deh_01_0005>`
 -  :ref:`General-Purpose DeHs <deh_01_0006>`
 -  :ref:`General Computing-Plus DeHs <deh_01_0031>`
--  :ref:`Dedicated General-Purpose DeHs <en-us_topic_0121650682>`
+-  :ref:`Dedicated General-Purpose DeHs <deh_01_0049>`
 -  :ref:`Memory-Optimized DeHs <en-us_topic_0105897861>`
--  :ref:`High-Performance DeHs <en-us_topic_0046252753>`
--  :ref:`Disk-Intensive DeHs <en-us_topic_0046252754>`
+-  :ref:`High-Performance DeHs <deh_01_0053>`
+-  :ref:`Disk-Intensive DeHs <deh_01_0054>`
 -  :ref:`Ultra-High I/O DeHs <deh_01_0055>`
 
 .. toctree::
