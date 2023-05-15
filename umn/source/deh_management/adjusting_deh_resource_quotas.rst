@@ -12,6 +12,8 @@ Quotas can limit the number or amount of resources available to users, such as t
 
 If the existing resource quota cannot meet your service requirements, you can apply for a higher quota.
 
+.. _deh_01_0034__section07760615438:
+
 How Do I View My Quotas?
 ------------------------
 

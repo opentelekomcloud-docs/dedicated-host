@@ -23,6 +23,4 @@ Categories and Types
    general_computing-plus_dehs
    dedicated_general-purpose_dehs
    memory-optimized_dehs
-   high-performance_dehs
-   disk-intensive_dehs
    ultra-high_i_o_dehs
