@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0046252754.html
+:original_name: deh_01_0054.html
 
-.. _en-us_topic_0046252754:
+.. _deh_01_0054:
 
 Disk-Intensive DeHs
 ===================

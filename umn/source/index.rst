@@ -11,6 +11,8 @@ Dedicated Host - User Guide
    ecs_management/index
    tag_management
    key_operations_recorded_by_cts/index
+   managing_enterprise_projects
+   permission_management/index
    faqs/index
    appendixes/index
    change_history

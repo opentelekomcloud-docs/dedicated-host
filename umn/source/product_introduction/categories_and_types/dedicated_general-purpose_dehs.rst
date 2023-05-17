@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0121650682.html
+:original_name: deh_01_0049.html
 
-.. _en-us_topic_0121650682:
+.. _deh_01_0049:
 
 Dedicated General-Purpose DeHs
 ==============================
