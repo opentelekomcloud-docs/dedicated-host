@@ -34,8 +34,6 @@ DeH Specifications
 
       vCPUs = (2 x 22 x 2 - 14) x 1 = 74
 
-      If you want to deploy ECSs that have only 4, 8, 16, 24, or 32 vCPUs on a c3, c3_pro, or c3ne DeH, you can assume that the DeH has 64 vCPUs to improve the DeH utilization.
-
 ECSs Allowed on DeHs
 --------------------
 
