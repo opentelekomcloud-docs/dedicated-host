@@ -28,6 +28,15 @@ project = 'Dedicated Host'
 otcdocs_repo_name = 'opentelekomcloud-docs/dedicated-host'
 # Those variables are required for edit/bug links
 
+# Those variables are needed for indexing into OpenSearch
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/dedicated-host/umn/'
+otcdocs_doc_title = 'User Guide'
+otcdocs_doc_type = 'umn'
+otcdocs_service_category = 'compute'
+otcdocs_service_title = 'Dedicated Host'
+otcdocs_service_type = 'deh'
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
