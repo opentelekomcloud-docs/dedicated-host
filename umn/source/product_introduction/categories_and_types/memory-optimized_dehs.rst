@@ -54,7 +54,7 @@ ECSs Allowed on DeHs
 .. table:: **Table 3** ECS flavors allowed on m3 DeHs
 
    ============= ===== ==================
-   Flavor Name   vCPUs Memory (RAM in GB)
+   ECS Flavor    vCPUs Memory (RAM in GB)
    ============= ===== ==================
    m3.large.8    2     16
    m3.xlarge.8   4     32
@@ -67,7 +67,7 @@ ECSs Allowed on DeHs
 .. table:: **Table 4** ECS flavors allowed on m4 DeHs
 
    ============= ===== ==================
-   Flavor Name   vCPUs Memory (RAM in GB)
+   ECS Flavor    vCPUs Memory (RAM in GB)
    ============= ===== ==================
    m4.large.8    2     16
    m4.xlarge.8   4     32
