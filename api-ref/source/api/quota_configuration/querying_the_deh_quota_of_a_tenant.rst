@@ -30,91 +30,78 @@ GET /v1.0/{project_id}/quota-sets/{tenant_id}
    +-----------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | tenant_id       | String          | Yes             | Specifies the tenant ID.                                                                                                                                            |
    |                 |                 |                 |                                                                                                                                                                     |
-   |                 |                 |                 | You can obtain the DeH ID from the DeH console or using the :ref:`Querying DeHs <deh_02_0020>` API.                                                                 |
+   |                 |                 |                 | You can obtain the value from the DeH console or using the API in :ref:`Querying DeHs <deh_02_0020>`.                                                               |
    +-----------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Request
 -------
 
--  Request parameters
+You can add the **resource** parameter to the URI. For example:
 
-   You can add the **resource** parameter to the URI. For example:
+**/v1.0/{project_id}/quota-sets/{tenant_id}?resource={resource}**
 
-   **/v1.0/{project_id}/quota-sets/{tenant_id}?resource={resource}**
+.. table:: **Table 2** Request parameters
 
-   .. table:: **Table 2** Request parameters
-
-      ========= ======== ====== ========= ============================
-      Parameter Location Type   Mandatory Description
-      ========= ======== ====== ========= ============================
-      resource  query    String No        Specifies the resource type.
-      ========= ======== ====== ========= ============================
-
--  Example request
-
-   .. code-block:: text
-
-      GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/quota-sets/45df5566cb3443ab910cf0daebcapoi8
+   ========= ======== ====== ========= ============================
+   Parameter Location Type   Mandatory Description
+   ========= ======== ====== ========= ============================
+   resource  query    String No        Specifies the resource type.
+   ========= ======== ====== ========= ============================
 
 Response
 --------
 
--  Response parameters
+.. table:: **Table 3** Response parameters
 
-   .. table:: **Table 3** Response parameters
+   +-----------------------+-----------------------+-------------------------------------------------------------------+
+   | Parameter             | Type                  | Description                                                       |
+   +=======================+=======================+===================================================================+
+   | quota_set             | Array of objects      | Specifies the quota set of a DeH.                                 |
+   |                       |                       |                                                                   |
+   |                       |                       | For details, see :ref:`Table 4 <deh_02_0028__table379913618427>`. |
+   +-----------------------+-----------------------+-------------------------------------------------------------------+
 
-      +-----------------------+-----------------------+-------------------------------------------------------------------+
-      | Parameter             | Type                  | Description                                                       |
-      +=======================+=======================+===================================================================+
-      | quota_set             | Array of objects      | Specifies the quota set of a DeH.                                 |
-      |                       |                       |                                                                   |
-      |                       |                       | For details, see :ref:`Table 4 <deh_02_0028__table379913618427>`. |
-      +-----------------------+-----------------------+-------------------------------------------------------------------+
+.. _deh_02_0028__table379913618427:
 
-   .. _deh_02_0028__table379913618427:
+.. table:: **Table 4** **quota_set** field description
 
-   .. table:: **Table 4** **quota_set** field description
+   +-----------------------+-----------------------+----------------------------------------------------------+
+   | Parameter             | Type                  | Description                                              |
+   +=======================+=======================+==========================================================+
+   | resource              | String                | Specifies the resource type.                             |
+   +-----------------------+-----------------------+----------------------------------------------------------+
+   | hard_limit            | Integer               | Specifies the quota limit.                               |
+   |                       |                       |                                                          |
+   |                       |                       | **-1** indicates that the resource quota is not limited. |
+   +-----------------------+-----------------------+----------------------------------------------------------+
+   | used                  | Integer               | Specifies the used amount of the quota.                  |
+   +-----------------------+-----------------------+----------------------------------------------------------+
 
-      +-----------------------+-----------------------+----------------------------------------------------------+
-      | Parameter             | Type                  | Description                                              |
-      +=======================+=======================+==========================================================+
-      | resource              | String                | Specifies the resource type.                             |
-      +-----------------------+-----------------------+----------------------------------------------------------+
-      | hard_limit            | Integer               | Specifies the quota limit.                               |
-      |                       |                       |                                                          |
-      |                       |                       | **-1** indicates that the resource quota is not limited. |
-      +-----------------------+-----------------------+----------------------------------------------------------+
-      | used                  | Integer               | Specifies the used amount of the quota.                  |
-      +-----------------------+-----------------------+----------------------------------------------------------+
+Example Request
+---------------
 
--  Example response
+.. code-block:: text
 
-   .. code-block::
+   GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/quota-sets/45df5566cb3443ab910cf0daebcapoi8
 
-      {
-          "quota_set": [
-              {
-                  "resource": "c1",
-                  "hard_limit": 5,
-                  "used": 2
-              },
-              {
-                  "resource": "m1",
-                  "hard_limit": 5,
-                  "used": 0
-              },
-              {
-                  "resource": "h1",
-                  "hard_limit": 5,
-                  "used": 2
-              },
-              {
-                  "resource": "d1",
-                  "hard_limit": 5,
-                  "used": 2
-              }
-          ]
-      }
+Example Response
+----------------
+
+.. code-block::
+
+   {
+    "quota_set": [
+     {
+      "used": 0,
+      "resource": "c4",
+      "hard_limit": 5
+     },
+     {
+      "used": 0,
+      "resource": "m4",
+      "hard_limit": 5
+     }]
+   }
 
 Status Code
 -----------

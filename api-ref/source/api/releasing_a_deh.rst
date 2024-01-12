@@ -35,34 +35,32 @@ DELETE /v1.0/{project_id}/dedicated-hosts/{dedicated_host_id}
    +-------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | dedicated_host_id | String          | Yes             | Specifies the DeH ID.                                                                                                                                               |
    |                   |                 |                 |                                                                                                                                                                     |
-   |                   |                 |                 | You can obtain the DeH ID from the DeH console or using the :ref:`Querying DeHs <deh_02_0020>` API.                                                                 |
+   |                   |                 |                 | You can obtain the value from the DeH console or using the API in :ref:`Querying DeHs <deh_02_0020>`.                                                               |
    +-------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Request
 -------
 
--  Request parameters
-
-   None
-
--  Example request
-
-   .. code-block:: text
-
-      DELETE https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts/74259164-e63a-4ad9-9c77-a1bd2c9aa187
+None
 
 Response
 --------
 
--  Response parameters
+None
 
-   None
+Example Request
+---------------
 
--  Example response
+.. code-block:: text
 
-   .. code-block::
+   DELETE https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts/74259164-e63a-4ad9-9c77-a1bd2c9aa187
 
-      Http Response Code: 204
+Example Response
+----------------
+
+.. code-block::
+
+   Http Response Code: 204
 
 Status Code
 -----------

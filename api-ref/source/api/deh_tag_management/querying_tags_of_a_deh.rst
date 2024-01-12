@@ -32,64 +32,62 @@ GET /v1.0/{project_id}/dedicated-host-tags/{dedicated_host_id}/tags
    +-------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | dedicated_host_id | String          | Yes             | Specifies the DeH ID.                                                                                                                                               |
    |                   |                 |                 |                                                                                                                                                                     |
-   |                   |                 |                 | You can obtain the DeH ID from the DeH console or using the :ref:`Querying DeHs <deh_02_0020>` API.                                                                 |
+   |                   |                 |                 | You can obtain the value from the DeH console or using the API in :ref:`Querying DeHs <deh_02_0020>`.                                                               |
    +-------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Request
 -------
 
--  Request parameters
-
-   None
-
--  Example request
-
-   .. code-block:: text
-
-      GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-host-tags/74259164-e63a-4ad9-9c77-a1bd2c9aa187/tags
+None
 
 Response
 --------
 
--  Response parameters
+.. table:: **Table 2** Response parameters
 
-   .. table:: **Table 2** Response parameters
+   +-----------------------+-----------------------+---------------------------------------------------------------------+
+   | Parameter             | Type                  | Description                                                         |
+   +=======================+=======================+=====================================================================+
+   | tags                  | Array of objects      | Specifies the list of tags.                                         |
+   |                       |                       |                                                                     |
+   |                       |                       | For details, see :ref:`Table 3 <deh_05_0903__table20667652184712>`. |
+   +-----------------------+-----------------------+---------------------------------------------------------------------+
 
-      +-----------------------+-----------------------+---------------------------------------------------------------------+
-      | Parameter             | Type                  | Description                                                         |
-      +=======================+=======================+=====================================================================+
-      | tags                  | Array of objects      | Specifies the list of tags.                                         |
-      |                       |                       |                                                                     |
-      |                       |                       | For details, see :ref:`Table 3 <deh_05_0903__table20667652184712>`. |
-      +-----------------------+-----------------------+---------------------------------------------------------------------+
+.. _deh_05_0903__table20667652184712:
 
-   .. _deh_05_0903__table20667652184712:
+.. table:: **Table 3** **tag** field description
 
-   .. table:: **Table 3** **tag** field description
+   ========= ====== ========================
+   Parameter Type   Description
+   ========= ====== ========================
+   key       String Specifies the tag key.
+   value     String Specifies the tag value.
+   ========= ====== ========================
 
-      ========= ====== ========================
-      Parameter Type   Description
-      ========= ====== ========================
-      key       String Specifies the tag key.
-      value     String Specifies the tag value.
-      ========= ====== ========================
+Example Request
+---------------
 
--  Example response
+.. code-block:: text
 
-   .. code-block::
+   GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-host-tags/74259164-e63a-4ad9-9c77-a1bd2c9aa187/tags
 
-      {
-          "tags": [
-              {
-                  "key": "key1",
-                  "value": "value1"
-              },
-              {
-                  "key": "key2",
-                  "value": "value2"
-              }
-          ]
-      }
+Example Response
+----------------
+
+.. code-block::
+
+   {
+       "tags": [
+           {
+               "key": "key1",
+               "value": "value1"
+           },
+           {
+               "key": "key2",
+               "value": "value2"
+           }
+       ]
+   }
 
 Status Code
 -----------

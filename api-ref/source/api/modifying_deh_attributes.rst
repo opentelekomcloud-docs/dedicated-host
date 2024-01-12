@@ -30,60 +30,60 @@ PUT /v1.0/{project_id}/dedicated-hosts/{dedicated_host_id}
    +-------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | dedicated_host_id | String          | Yes             | Specifies the DeH ID.                                                                                                                                               |
    |                   |                 |                 |                                                                                                                                                                     |
-   |                   |                 |                 | You can obtain the DeH ID from the DeH console or using the :ref:`Querying DeHs <deh_02_0020>` API.                                                                 |
+   |                   |                 |                 | You can obtain the value from the DeH console or using the API in :ref:`Querying DeHs <deh_02_0020>`.                                                               |
    +-------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Request
 -------
 
--  Request parameters
+.. table:: **Table 2** Request parameters
 
-   .. table:: **Table 2** Request parameters
+   +----------------+-----------+--------+---------------------------------------------------------------------------------------------------+
+   | Parameter      | Mandatory | Type   | Description                                                                                       |
+   +================+===========+========+===================================================================================================+
+   | dedicated_host | Yes       | Object | Specifies the dedicated host. For details, see :ref:`Table 3 <deh_02_0023__table88521854161717>`. |
+   +----------------+-----------+--------+---------------------------------------------------------------------------------------------------+
 
-      +----------------+-----------+--------+---------------------------------------------------------------------------------------------------+
-      | Parameter      | Mandatory | Type   | Description                                                                                       |
-      +================+===========+========+===================================================================================================+
-      | dedicated_host | Yes       | Object | Specifies the dedicated host. For details, see :ref:`Table 3 <deh_02_0023__table88521854161717>`. |
-      +----------------+-----------+--------+---------------------------------------------------------------------------------------------------+
+.. _deh_02_0023__table88521854161717:
 
-   .. _deh_02_0023__table88521854161717:
+.. table:: **Table 3** **dedicated_host** field data structure description
 
-   .. table:: **Table 3** **dedicated_host** field data structure description
-
-      +----------------+-------------+-------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Parameter      | Location    | Type        | Mandatory   | Description                                                                                                             |
-      +================+=============+=============+=============+=========================================================================================================================+
-      | auto_placement | in          | String      | No          | Specifies whether to allow an ECS to be placed on any available DeH if its DeH ID is not specified during its creation. |
-      |                |             |             |             |                                                                                                                         |
-      |                |             |             |             | The value can be **on** or **off**.                                                                                     |
-      +----------------+-------------+-------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | name           | in          | String      | No          | Specifies the DeH name.                                                                                                 |
-      +----------------+-------------+-------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-
--  Example request
-
-   .. code-block:: text
-
-      PUT https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts/74259164-e63a-4ad9-9c77-a1bd2c9aa187
-      {
-          "dedicated_host": {
-              "auto_placement": "off",
-              "name": "DeH_vm3"
-          }
-      }
+   +----------------+-------------+-------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | Parameter      | Location    | Type        | Mandatory   | Description                                                                                                             |
+   +================+=============+=============+=============+=========================================================================================================================+
+   | auto_placement | in          | String      | No          | Specifies whether to allow an ECS to be placed on any available DeH if its DeH ID is not specified during its creation. |
+   |                |             |             |             |                                                                                                                         |
+   |                |             |             |             | The value can be **on** or **off**.                                                                                     |
+   +----------------+-------------+-------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | name           | in          | String      | No          | Specifies the DeH name.                                                                                                 |
+   +----------------+-------------+-------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
 
 Response
 --------
 
--  Response parameters
+None
 
-   None
+Example Request
+---------------
 
--  Example response
+Set **auto_placement** to **off** to not allow an ECS to be placed on any available DeH. Change the name of the DeH to **DeH_vm3**.
 
-   .. code-block::
+.. code-block:: text
 
-      Http Response Code: 204
+   PUT https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts/74259164-e63a-4ad9-9c77-a1bd2c9aa187
+   {
+       "dedicated_host": {
+           "auto_placement": "off",
+           "name": "DeH_vm3"
+       }
+   }
+
+Example Response
+----------------
+
+.. code-block::
+
+   Http Response Code: 204
 
 Status Code
 -----------
