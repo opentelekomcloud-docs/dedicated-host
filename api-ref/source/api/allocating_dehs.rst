@@ -37,92 +37,92 @@ POST /v1.0/{project_id}/dedicated-hosts
 Request
 -------
 
--  Request parameters
+.. table:: **Table 2** Request parameters
 
-   .. table:: **Table 2** Request parameters
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | Parameter         | In          | Type             | Mandatory   | Description                                                                                                             |
+   +===================+=============+==================+=============+=========================================================================================================================+
+   | name              | body        | String           | Yes         | Specifies the DeH name.                                                                                                 |
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | auto_placement    | body        | String           | No          | Specifies whether to allow an ECS to be placed on any available DeH if its DeH ID is not specified during its creation. |
+   |                   |             |                  |             |                                                                                                                         |
+   |                   |             |                  |             | The value can be **on** or **off**.                                                                                     |
+   |                   |             |                  |             |                                                                                                                         |
+   |                   |             |                  |             | The default value is **on**.                                                                                            |
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | availability_zone | body        | String           | Yes         | Specifies the AZ to which the DeH belongs.                                                                              |
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | host_type         | body        | String           | Yes         | Specifies the DeH type.                                                                                                 |
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | quantity          | body        | Integer          | Yes         | Specifies the number of allocatable DeHs.                                                                               |
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+   | tags              | body        | Array of objects | No          | Specifies the DeH tags.                                                                                                 |
+   |                   |             |                  |             |                                                                                                                         |
+   |                   |             |                  |             | For details, see :ref:`Table 3 <deh_02_0019__table17210121526>`.                                                        |
+   +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
 
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Parameter         | In          | Type             | Mandatory   | Description                                                                                                             |
-      +===================+=============+==================+=============+=========================================================================================================================+
-      | name              | body        | String           | Yes         | Specifies the DeH name.                                                                                                 |
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | auto_placement    | body        | String           | No          | Specifies whether to allow an ECS to be placed on any available DeH if its DeH ID is not specified during its creation. |
-      |                   |             |                  |             |                                                                                                                         |
-      |                   |             |                  |             | The value can be **on** or **off**.                                                                                     |
-      |                   |             |                  |             |                                                                                                                         |
-      |                   |             |                  |             | The default value is **on**.                                                                                            |
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | availability_zone | body        | String           | Yes         | Specifies the AZ to which the DeH belongs.                                                                              |
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | host_type         | body        | String           | Yes         | Specifies the DeH type.                                                                                                 |
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | quantity          | body        | Integer          | Yes         | Specifies the number of allocatable DeHs.                                                                               |
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
-      | tags              | body        | Array of objects | No          | Specifies the DeH tags.                                                                                                 |
-      |                   |             |                  |             |                                                                                                                         |
-      |                   |             |                  |             | For details, see :ref:`Table 3 <deh_02_0019__table17210121526>`.                                                        |
-      +-------------------+-------------+------------------+-------------+-------------------------------------------------------------------------------------------------------------------------+
+.. _deh_02_0019__table17210121526:
 
-   .. _deh_02_0019__table17210121526:
+.. table:: **Table 3** **tag** field description
 
-   .. table:: **Table 3** **tag** field description
-
-      +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
-      | Parameter       | Type            | Mandatory       | Description                                                          |
-      +=================+=================+=================+======================================================================+
-      | key             | String          | Yes             | Specifies the tag key.                                               |
-      |                 |                 |                 |                                                                      |
-      |                 |                 |                 | -  It contains a maximum of 36 Unicode characters.                   |
-      |                 |                 |                 | -  The value cannot be empty.                                        |
-      |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
-      |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
-      +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
-      | value           | String          | Yes             | Specifies the tag value.                                             |
-      |                 |                 |                 |                                                                      |
-      |                 |                 |                 | -  It contains a maximum of 43 Unicode characters.                   |
-      |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
-      |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
-      +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
-
--  Example request
-
-   .. code-block:: text
-
-      POST https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts
-      {
-           "availability_zone": "dc1.az1",
-           "name": "high performance servers1",
-           "auto_placement": "off",
-           "host_type": "h1",
-           "quantity": 2,
-           "tags": [
-               {
-                   "key": "key1",
-                   "value": "value1"
-               }
-           ]
-      }
+   +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
+   | Parameter       | Type            | Mandatory       | Description                                                          |
+   +=================+=================+=================+======================================================================+
+   | key             | String          | Yes             | Specifies the tag key.                                               |
+   |                 |                 |                 |                                                                      |
+   |                 |                 |                 | -  It contains a maximum of 36 Unicode characters.                   |
+   |                 |                 |                 | -  The value cannot be empty.                                        |
+   |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
+   |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
+   +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
+   | value           | String          | Yes             | Specifies the tag value.                                             |
+   |                 |                 |                 |                                                                      |
+   |                 |                 |                 | -  It contains a maximum of 43 Unicode characters.                   |
+   |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
+   |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
+   +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
 
 Response
 --------
 
--  Response parameters
+.. table:: **Table 4** Response parameters
 
-   .. table:: **Table 4** Response parameters
+   +--------------------+------+------------------+---------------------------------------------------------------------------------------+
+   | Parameter          | In   | Type             | Description                                                                           |
+   +====================+======+==================+=======================================================================================+
+   | dedicated_host_ids | body | Array of strings | Specifies a group of IDs of allocated DeHs. The tenant can create ECSs on these DeHs. |
+   +--------------------+------+------------------+---------------------------------------------------------------------------------------+
 
-      +--------------------+------+------------------+---------------------------------------------------------------------------------------+
-      | Parameter          | In   | Type             | Description                                                                           |
-      +====================+======+==================+=======================================================================================+
-      | dedicated_host_ids | body | Array of strings | Specifies a group of IDs of allocated DeHs. The tenant can create ECSs on these DeHs. |
-      +--------------------+------+------------------+---------------------------------------------------------------------------------------+
+Example Request
+---------------
 
--  Example response
+Two s3 DeHs are allocated in **az1**, and the DeH name is **General Computing server1**.
 
-   .. code-block::
+.. code-block:: text
 
-      {
-          "dedicated_host_ids": ["xxxxxxx1","xxxxxxx2"]
-      }
+   POST https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts
+   {
+        "availability_zone": "dc1.az1",
+        "name": "General-Purpose server1",
+        "auto_placement": "off",
+        "host_type":"s2",
+        "quantity": 2,
+        "tags": [
+            {
+                "key": "key1",
+                "value": "value1"
+            }
+        ]
+   }
+
+Example Response
+----------------
+
+.. code-block::
+
+   {
+       "dedicated_host_ids": ["xxxxxxx1","xxxxxxx2"]
+   }
 
 Status Code
 -----------

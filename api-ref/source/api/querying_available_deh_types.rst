@@ -34,64 +34,54 @@ Get /v1.0/{project_id}/availability-zone/{availability_zone}/dedicated-host-type
 Request
 -------
 
--  Request parameters
-
-   None
-
--  Example request
-
-   .. code-block:: text
-
-      GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/availability-zone/az1/dedicated-host-types
+None
 
 Response
 --------
 
--  Response parameters
+.. table:: **Table 2** Response parameters
 
-   .. table:: **Table 2** Response parameters
+   +----------------------+------+------------------+-------------------------------------------------------------------------------------------------------+
+   | Parameter            | In   | Type             | Description                                                                                           |
+   +======================+======+==================+=======================================================================================================+
+   | dedicated_host_types | body | Array of objects | Specifies the available DeH types. For details, see :ref:`Table 3 <deh_02_0025__table1790111341615>`. |
+   +----------------------+------+------------------+-------------------------------------------------------------------------------------------------------+
 
-      +----------------------+------+------------------+-------------------------------------------------------------------------------------------------------+
-      | Parameter            | In   | Type             | Description                                                                                           |
-      +======================+======+==================+=======================================================================================================+
-      | dedicated_host_types | body | Array of objects | Specifies the available DeH types. For details, see :ref:`Table 3 <deh_02_0025__table1790111341615>`. |
-      +----------------------+------+------------------+-------------------------------------------------------------------------------------------------------+
+.. _deh_02_0025__table1790111341615:
 
-   .. _deh_02_0025__table1790111341615:
+.. table:: **Table 3** **dedicated_host_types** field description
 
-   .. table:: **Table 3** **dedicated_host_types** field description
+   ============== ====== ===================================
+   Parameter      Type   Description
+   ============== ====== ===================================
+   host_type      String Specifies the DeH type.
+   host_type_name String Specifies the name of the DeH type.
+   ============== ====== ===================================
 
-      ============== ====== ===================================
-      Parameter      Type   Description
-      ============== ====== ===================================
-      host_type      String Specifies the DeH type.
-      host_type_name String Specifies the name of the DeH type.
-      ============== ====== ===================================
+Example Request
+---------------
 
--  Example response
+.. code-block:: text
 
-   .. code-block::
+   GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/availability-zone/az1/dedicated-host-types
 
-      {
-          "dedicated_host_types": [
-              {
-                  "host_type": "General",
-                  "host_type_name": "General Computing"
-              },
-              {
-                  "host_type": "m1",
-                  "host_type_name": "Memory-optimized"
-              },
-              {
-                  "host_type": "h2",
-                  "host_type_name": "High performance"
-              },
-              {
-                  "host_type": "d1",
-                  "host_type_name": "Disk intensive"
-              }
-          ]
-      }
+Example Response
+----------------
+
+.. code-block::
+
+   {
+    "dedicated_host_types": [
+     {
+      "host_type": "c4",
+      "host_type_name": "dedicated_general_purpose"
+     },
+     {
+      "host_type": "m4",
+      "host_type_name": "memory_optimized"
+     }
+    ]
+   }
 
 Status Code
 -----------
