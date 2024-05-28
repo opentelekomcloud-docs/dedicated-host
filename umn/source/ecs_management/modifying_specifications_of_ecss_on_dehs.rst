@@ -8,15 +8,7 @@ Modifying Specifications of ECSs on DeHs
 Scenarios
 ---------
 
-When the specifications of ECSs on a DeH cannot meet service requirements, you can modify the ECS specifications including the vCPUs and memory. For some ECSs, you can change the ECS type when modifying the ECS specifications. You can change the specifications of a general-purpose ECS to that of an H1 ECS. You can change XEN instances to KVM instances.
-
-.. note::
-
-   XEN instances: indicate ECSs that are virtualized by XEN.
-
-   KVM instances: indicate ECSs that are virtualized by KVM.
-
-   Before changing a XEN instance to a KVM instance, manually install the desired driver on the ECS. Otherwise, the ECS will be unavailable after the modification is performed. For example, starting the OS will fail.
+When the specifications of ECSs on a DeH cannot meet service requirements, you can modify the ECS specifications including the vCPUs and memory.
 
 Procedure
 ---------
