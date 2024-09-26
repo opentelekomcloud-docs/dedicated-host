@@ -66,13 +66,13 @@ Request
    |                 |                 |                 |                                                                      |
    |                 |                 |                 | -  It contains a maximum of 36 Unicode characters.                   |
    |                 |                 |                 | -  The value cannot be empty.                                        |
-   |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
+   |                 |                 |                 | -  It cannot contain the following ASCII characters:``=*<>\|/,``     |
    |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
    | value           | String          | Yes             | Specifies the tag value.                                             |
    |                 |                 |                 |                                                                      |
    |                 |                 |                 | -  It contains a maximum of 43 Unicode characters.                   |
-   |                 |                 |                 | -  It cannot contain the following ASCII characters: ``=*<>\|/,``    |
+   |                 |                 |                 | -  It cannot contain the following ASCII characters:``=*<>\|/,``     |
    |                 |                 |                 | -  It can contain letters, digits, hyphens (-), and underscores (_). |
    +-----------------+-----------------+-----------------+----------------------------------------------------------------------+
 
@@ -84,14 +84,11 @@ N/A
 Example Request
 ---------------
 
-Delete two tags from a DeH in a batch. The keys and corresponding values for these two tags are as follows: **key1** and **value1**; **key2** and **value2**
+Delete two tags from a DeH in a batch. The keys and corresponding values for these two tags are as follows: **key1** and **value1**; **key2** and **value2**.
 
 .. code-block:: text
 
    POST https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-host-tags/74259164-e63a-4ad9-9c77-a1bd2c9aa187/tags/action
-
-.. code-block::
-
    {
        "action": "delete",
        "tags": [
