@@ -80,6 +80,8 @@ Response
 Example Request
 ---------------
 
+Query the DeH quota of the tenant whose ID is **45df5566cb3443ab910cf0daebcapoi8**.
+
 .. code-block:: text
 
    GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/quota-sets/45df5566cb3443ab910cf0daebcapoi8
@@ -90,17 +92,18 @@ Example Response
 .. code-block::
 
    {
-    "quota_set": [
-     {
-      "used": 0,
-      "resource": "c4",
-      "hard_limit": 5
-     },
-     {
-      "used": 0,
-      "resource": "m4",
-      "hard_limit": 5
-     }]
+       "quota_set": [
+            {
+                 "used": 0,
+                 "resource": "c4",
+                 "hard_limit": 5
+            },
+            {
+                 "used": 0,
+                 "resource": "m4",
+                 "hard_limit": 5
+            }
+       ]
    }
 
 Status Code

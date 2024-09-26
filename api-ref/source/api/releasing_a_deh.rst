@@ -51,6 +51,8 @@ None
 Example Request
 ---------------
 
+Release the DeH **74259164-e63a-4ad9-9c77-a1bd2c9aa187**.
+
 .. code-block:: text
 
    DELETE https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts/74259164-e63a-4ad9-9c77-a1bd2c9aa187

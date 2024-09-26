@@ -172,21 +172,21 @@ Response
 
 .. table:: **Table 7** **tag** field description
 
-   +-----------------------+-----------------------+-------------------------------------------------------------------+
-   | Parameter             | Type                  | Description                                                       |
-   +=======================+=======================+===================================================================+
-   | key                   | String                | Specifies the tag key.                                            |
-   |                       |                       |                                                                   |
-   |                       |                       | -  It contains a maximum of 36 Unicode characters.                |
-   |                       |                       | -  This field cannot be left blank.                               |
-   |                       |                       | -  It cannot contain the following ASCII characters: ``=*<>\|/,`` |
-   +-----------------------+-----------------------+-------------------------------------------------------------------+
-   | value                 | String                | Specifies the tag value.                                          |
-   |                       |                       |                                                                   |
-   |                       |                       | -  Each value contains a maximum of 43 Unicode characters.        |
-   |                       |                       | -  This field can be left blank.                                  |
-   |                       |                       | -  It cannot contain the following ASCII characters: ``=*<>\|/,`` |
-   +-----------------------+-----------------------+-------------------------------------------------------------------+
+   +-----------------------+-----------------------+------------------------------------------------------------------+
+   | Parameter             | Type                  | Description                                                      |
+   +=======================+=======================+==================================================================+
+   | key                   | String                | Specifies the tag key.                                           |
+   |                       |                       |                                                                  |
+   |                       |                       | -  It contains a maximum of 36 Unicode characters.               |
+   |                       |                       | -  This field cannot be left blank.                              |
+   |                       |                       | -  It cannot contain the following ASCII characters:``=*<>\|/,`` |
+   +-----------------------+-----------------------+------------------------------------------------------------------+
+   | value                 | String                | Specifies the tag value.                                         |
+   |                       |                       |                                                                  |
+   |                       |                       | -  Each value contains a maximum of 43 Unicode characters.       |
+   |                       |                       | -  This field can be left blank.                                 |
+   |                       |                       | -  It cannot contain the following ASCII characters:``=*<>\|/,`` |
+   +-----------------------+-----------------------+------------------------------------------------------------------+
 
 Example Request
 ---------------
@@ -196,9 +196,6 @@ Filter DeHs by tag. From the first data record, query the DeH using the search f
 .. code-block:: text
 
    POST https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-host-tags/resource_instances/action
-
-.. code-block::
-
    {
        "offset": "0",
        "limit": "100",

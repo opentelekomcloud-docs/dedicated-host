@@ -61,6 +61,8 @@ Response
 Example Request
 ---------------
 
+Query the DeH types available in **az1**.
+
 .. code-block:: text
 
    GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/availability-zone/az1/dedicated-host-types
@@ -71,16 +73,16 @@ Example Response
 .. code-block::
 
    {
-    "dedicated_host_types": [
-     {
-      "host_type": "c4",
-      "host_type_name": "dedicated_general_purpose"
-     },
-     {
-      "host_type": "m4",
-      "host_type_name": "memory_optimized"
-     }
-    ]
+        "dedicated_host_types": [
+             {
+              "host_type": "c4",
+              "host_type_name": "dedicated_general_purpose"
+             },
+             {
+              "host_type": "m4",
+              "host_type_name": "memory_optimized"
+             }
+        ]
    }
 
 Status Code

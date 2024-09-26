@@ -150,6 +150,8 @@ Response
 Example Request
 ---------------
 
+Query ECSs on the DeH **ab910cf0daebca90c4001**.
+
 .. code-block:: text
 
    GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-hosts/ab910cf0daebca90c4001/servers
