@@ -67,6 +67,8 @@ Response
 Example Request
 ---------------
 
+Query the tags of the DeH **74259164-e63a-4ad9-9c77-a1bd2c9aa187**.
+
 .. code-block:: text
 
    GET https://{Endpoint}/v1.0/9c53a566cb3443ab910cf0daebca90c4/dedicated-host-tags/74259164-e63a-4ad9-9c77-a1bd2c9aa187/tags

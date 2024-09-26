@@ -65,6 +65,8 @@ Response
 Example Request
 ---------------
 
+Query all available API versions of DeH.
+
 .. code-block:: text
 
    GET /
