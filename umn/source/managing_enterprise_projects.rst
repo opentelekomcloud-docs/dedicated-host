@@ -5,7 +5,7 @@
 Managing Enterprise Projects
 ============================
 
-An enterprise project is a way of managing cloud resources where cloud resources and members are centrally managed by project.
+An enterprise project helps you centrally manage your DeH resources and users by project.
 
 DeH supports enterprise project management. You can grant different personnel different permissions to manage different DeHs.
 
@@ -25,4 +25,4 @@ Using Enterprise Project to Manage DeHs
 ---------------------------------------
 
 -  Select an enterprise project when purchasing a DeH. For details, see :ref:`Allocating DeHs <deh_01_0012>`.
--  On the Enterprise Project Management page, you can add existing DeHs to an enterprise project.
+-  On the **Enterprise Project Management** page, you can add existing DeHs to an enterprise project.
