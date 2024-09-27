@@ -10,16 +10,16 @@ Background
 
 If you need to assign different permissions to employees in your enterprise to access your DeH resources, IAM is a good choice for fine-grained permissions management. IAM provides identity authentication, permissions management, and access control, helping you securely manage access to your cloud resources.
 
-With IAM, you can create IAM users under your account for your employees, and assign permissions to the users to control their access to specific resource types. For example, some software developers in your enterprise need to use DeH but should not be allowed to delete other DeH resources or perform any other high-risk operations. In this scenario, you can create IAM users for the software developers and grant them only the permissions required for using DeH resources.
+With IAM, you can use your account to create IAM users for your employees, and grant permissions to the users to control their access to specific resource types. For example, some software developers in your enterprise need to use DeH but should not be allowed to delete other DeH resources or perform any other high-risk operations. In this scenario, you can create IAM users for the software developers and grant them only the permissions required for using DeH resources.
 
-If your account does not need individual IAM users for permissions management, you may skip over this chapter.
+If your account does not require individual IAM users for permissions management, you can skip this section.
 
-IAM is free. You pay only for resources purchased using your account. For more information about IAM, see Identity and Access Management User Guide.
+IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see Identity and Access Management User Guide.
 
 DeH Permissions
 ---------------
 
-By default, new IAM users do not have permissions assigned. You need to add a user to one or more groups, and attach permissions policies or roles to these groups. Users inherit permissions from their groups and can perform specified operations on cloud services.
+New IAM users do not have any permissions assigned by default. You need to first add them to one or more groups and attach policies or roles to these groups. The users then inherit permissions from the groups and can perform specified operations on cloud services based on the permissions they have been assigned.
 
 DeH is a project-level service deployed in specific physical regions. When you grant DeH permissions to a user group, set **Scope** to **Region-specific projects** and then select projects for the permissions to take effect. If you select **All projects**, the permissions will take effect for the user group in all region-specific projects. When accessing DeH, the users need to switch to a region where they have been authorized to use this service.
 

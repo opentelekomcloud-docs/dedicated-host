@@ -13,7 +13,7 @@ Product Introduction
 -  :ref:`Basic Concepts <deh_01_0026>`
 -  :ref:`Permissions <deh_01_0009>`
 -  :ref:`Constraints <deh_01_0010>`
--  :ref:`Comparisons Between ECSs in Resource Pools and ECSs on DeHs <deh_01_0027>`
+-  :ref:`Differences Between ECSs in Resource Pools and ECSs on DeHs <deh_01_0027>`
 
 .. toctree::
    :maxdepth: 1
@@ -27,4 +27,4 @@ Product Introduction
    basic_concepts
    permissions
    constraints
-   comparisons_between_ecss_in_resource_pools_and_ecss_on_dehs
+   differences_between_ecss_in_resource_pools_and_ecss_on_dehs
