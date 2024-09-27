@@ -5,6 +5,6 @@
 What Are the Differences Between DeHs and ECSs?
 ===============================================
 
-DeHs are dedicated physical servers where the virtualization environment is deployed and allows you to exclusively use physical servers. Your DeHs are physically isolated from servers of other users. After allocating a DeH, you can create ECSs on the DeH as well as plan physical server resources.
+DeHs are dedicated physical servers where the virtualization environment is deployed and are fully dedicated for your use. Your DeHs are physically isolated from those of other users. After creating a DeH, you can create ECSs on the DeH as well as plan physical server resources.
 
 Common ECSs allow multiple users to share physical server resources.

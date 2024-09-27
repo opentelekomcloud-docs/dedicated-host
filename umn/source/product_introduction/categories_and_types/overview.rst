@@ -9,7 +9,7 @@ The DeH category and type define the DeH configuration and determine the type an
 
 The DeH configuration includes the number of CPUs (sockets), number of physical cores, local storage, hardware configuration (CPU model and memory size), and number of vCPUs. Buy DeHs of desired specifications based on the site requirements.
 
-Currently, the following DeH categories and types are supported:
+The following DeH categories and types are supported:
 
 -  General-purpose DeHs
 -  General computing-plus DeHs

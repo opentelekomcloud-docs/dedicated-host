@@ -2,13 +2,13 @@
 
 .. _deh_01_0023:
 
-Querying ECSs on a DeH
-======================
+Viewing the Details of ECSs on a DeH
+====================================
 
 Scenarios
 ---------
 
-Query information about the ECSs running on each DeH on the management console.
+You can view the information about the ECSs running on each DeH on the management console.
 
 Procedure
 ---------
@@ -37,6 +37,6 @@ Procedure
 Follow-up Operations
 --------------------
 
-:ref:`Managing ECSs on a DeH <deh_01_0024>`
+:ref:`Managing an ECS on a DeH <deh_01_0024>`
 
-.. |image1| image:: /_static/images/en-us_image_0210485079.png
+.. |image1| image:: /_static/images/en-us_image_0000001850888056.png

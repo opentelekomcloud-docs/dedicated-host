@@ -42,7 +42,7 @@ DeH Specifications
    +-------------+-------------------+----------------------------+----------------------------------------------------------------------------------+-----------------+
    | Flavor Type | Number of Sockets | Number of Cores per Socket | Hardware Specifications                                                          | Number of vCPUs |
    +=============+===================+============================+==================================================================================+=================+
-   | s3          | 2                 | 26                         | -  CPU: Intel Cascade Lake 6278 (frequency: 2.60 GHz, Turbo frequency: 3.50 GHz) | 264             |
+   | s3          | 2                 | 26                         | -  CPU: Intel Cascade Lake 6278 (frequency: 2.60 GHz, turbo frequency: 3.50 GHz) | 264             |
    |             |                   |                            | -  Memory: 702 GB (or 718,848 MB)                                                |                 |
    +-------------+-------------------+----------------------------+----------------------------------------------------------------------------------+-----------------+
 
@@ -67,9 +67,9 @@ ECSs Allowed on DeHs
 
 .. table:: **Table 4** ECS flavors allowed on s2 DeHs
 
-   ============ ===== ==================
-   ECS Flavor   vCPUs Memory (RAM in GB)
-   ============ ===== ==================
+   ============ ===== ===================
+   ECS Flavor   vCPUs Memory (RAM in GiB)
+   ============ ===== ===================
    s2.medium.1  1     1
    s2.large.1   2     2
    s2.xlarge.1  4     4
@@ -94,13 +94,13 @@ ECSs Allowed on DeHs
    s2.2xlarge.8 8     64
    s2.4xlarge.8 16    128
    s2.8xlarge.8 32    256
-   ============ ===== ==================
+   ============ ===== ===================
 
 .. table:: **Table 5** ECS flavors allowed on s2-medium DeHs
 
-   ============ ===== ==================
-   ECS Flavor   vCPUs Memory (RAM in GB)
-   ============ ===== ==================
+   ============ ===== ===================
+   ECS Flavor   vCPUs Memory (RAM in GiB)
+   ============ ===== ===================
    s2.medium.1  1     1
    s2.large.1   2     2
    s2.xlarge.1  4     4
@@ -125,13 +125,13 @@ ECSs Allowed on DeHs
    s2.2xlarge.8 8     64
    s2.4xlarge.8 16    128
    s2.8xlarge.8 32    256
-   ============ ===== ==================
+   ============ ===== ===================
 
 .. table:: **Table 6** ECS flavors allowed on s3 DeHs
 
-   ============ ===== ==================
-   ECS Flavor   vCPUs Memory (RAM in GB)
-   ============ ===== ==================
+   ============ ===== ===================
+   ECS Flavor   vCPUs Memory (RAM in GiB)
+   ============ ===== ===================
    s3.medium.1  1     1
    s3.large.1   2     2
    s3.xlarge.1  4     4
@@ -156,4 +156,4 @@ ECSs Allowed on DeHs
    s3.2xlarge.8 8     64
    s3.4xlarge.8 16    128
    s3.8xlarge.8 32    256
-   ============ ===== ==================
+   ============ ===== ===================

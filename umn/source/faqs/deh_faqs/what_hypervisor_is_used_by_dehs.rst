@@ -2,7 +2,7 @@
 
 .. _deh_faq_0022:
 
-What Hypervisor Is Used by DeH?
-===============================
+What Hypervisor Is Used by DeHs?
+================================
 
 DeHs use KVM. Only KVM ECSs can be deployed on the DeHs.
