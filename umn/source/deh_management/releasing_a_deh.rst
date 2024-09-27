@@ -2,13 +2,13 @@
 
 .. _deh_01_0020:
 
-Releasing DeHs
-==============
+Releasing a DeH
+===============
 
 Scenarios
 ---------
 
-Timely release DeHs that are not used. Charging for the released DeHs will be stopped.
+You can release a DeH if it is no longer in use. Charging for the released DeHs will be stopped.
 
 Prerequisites
 -------------

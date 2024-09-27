@@ -8,7 +8,7 @@ Releasing DeHs in Batches
 Scenarios
 ---------
 
-Timely release DeHs that are not used. Charging for the released DeHs will be stopped.
+You can batch release the DeHs that are no longer in use. Charging for the released DeHs will be stopped.
 
 If you want to release multiple DeHs at a time, use the batch release method.
 

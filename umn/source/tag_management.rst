@@ -7,7 +7,7 @@ Tag Management
 
 Tags are identifiers of DeHs and can help you quickly identify your DeHs.
 
-You can add a tag to a DeH during the DeH creation. Alternatively, you can add a tag to a DeH on the **Tags** tab of the DeH details page. A maximum of 10 tags can be added to a DeH.
+You can add a tag to a DeH when creating a DeH. Alternatively, you can add a tag to a DeH on the **Tags** tab of the DeH details page. A maximum of 10 tags can be added to a DeH.
 
 A tag consists of a tag key and a tag value. :ref:`Table 1 <deh_01_0038__table204442131366>` lists the naming requirements for keys and values.
 
@@ -36,6 +36,8 @@ On the **Dedicated Host** page, you can search for the desired DeHs by tag key a
 
 #. Under **Computing**, click **Dedicated Host**.
 
+   The **Dedicated Host** page is displayed.
+
 #. In the upper right corner of the DeH list, click **Search by Tag** to show the search page.
 
 
@@ -44,13 +46,13 @@ On the **Dedicated Host** page, you can search for the desired DeHs by tag key a
 
       **Figure 1** Searching for DeHs by tag
 
-#. Enter the tag key and tag value of the DeH. Click **Search**.
+#. Enter the tag key and tag value of the target DeH. Click **Search**.
 
    The system automatically searches for your desired DeHs.
 
 #. Click |image1| to add a tag.
 
-   You can add multiple tags to DeHs. The system will display DeHs that match all tags.
+   You can add multiple tags to search for DeHs. The system will display DeHs that match all tags.
 
 #. Click **Search**.
 

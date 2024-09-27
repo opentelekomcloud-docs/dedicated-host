@@ -33,9 +33,9 @@ ECSs Allowed on c3 DeHs
 
 .. table:: **Table 2** ECS flavors allowed on c3 DeHs
 
-   ============= ===== ==================
-   ECS Flavor    vCPUs Memory (RAM in GB)
-   ============= ===== ==================
+   ============= ===== ===================
+   ECS Flavor    vCPUs Memory (RAM in GiB)
+   ============= ===== ===================
    c3.large.2    2     4
    c3.xlarge.2   4     8
    c3.2xlarge.2  8     16
@@ -48,4 +48,4 @@ ECSs Allowed on c3 DeHs
    c3.4xlarge.4  16    64
    c3.8xlarge.4  32    128
    c3.15xlarge.4 60    256
-   ============= ===== ==================
+   ============= ===== ===================
