@@ -2,8 +2,8 @@
 
 .. _deh_01_0017:
 
-Querying DeHs
-=============
+Viewing the Details of a DeH
+============================
 
 Scenarios
 ---------
@@ -29,14 +29,14 @@ Procedure
    -  **Auto Placement**: Whether **Auto Placement** is enabled.
    -  **Status**: DeH status
    -  **vCPUs**: Total number of vCPUs and available vCPUs
-   -  **Memory**: Total memory and available memory
+   -  **Memory(GiB)**: Total memory and available memory
    -  **Sockets**: Number of physical CPU sockets
-   -  **Cores**: Number of physical cores.
+   -  **Cores**: Number of physical cores
 
 Related Operations
 ------------------
 
--  :ref:`Changing Names of DeHs <deh_01_0018>`
+-  :ref:`Changing the Name of a DeH <deh_01_0018>`
 -  :ref:`Configuring Auto Placement for DeHs <deh_01_0019>`
 
-.. |image1| image:: /_static/images/en-us_image_0210485079.png
+.. |image1| image:: /_static/images/en-us_image_0000001850888056.png
