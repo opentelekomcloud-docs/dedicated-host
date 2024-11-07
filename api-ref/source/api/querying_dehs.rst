@@ -150,9 +150,9 @@ Example Response
                "available_memory": 81920,
                "instance_total": 5,
                "allocated_at": "2016-10-10T14:35:47Z",
-               "released_at": null
-               }
-               ],
+               "released_at": ""
+           }
+       ],
        "total": 1
    }
 

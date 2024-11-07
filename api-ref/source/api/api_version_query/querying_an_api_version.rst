@@ -77,6 +77,8 @@ Response
 Example Request
 ---------------
 
+Query the information about API v1.0 of DeH.
+
 .. code-block:: text
 
    GET /v1.0
