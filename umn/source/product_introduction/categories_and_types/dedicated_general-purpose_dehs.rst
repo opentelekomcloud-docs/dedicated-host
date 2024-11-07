@@ -8,7 +8,7 @@ Dedicated General-Purpose DeHs
 Overview
 --------
 
-Dedicated general-purpose DeHs are classified as c3 DeHs. DeHs of c3 type can be used to deploy C3 ECSs. The C3 ECSs use the latest generation Intel Xeon Skylake CPUs and high-performance networks to improve comprehensive performance and stability, meeting the requirements of enterprise-level applications that have high requirements on service stability and computing performance.
+Dedicated general-purpose DeHs are classified as c3 and c4 DeHs. DeHs of c3 and c4 types can be used to deploy C3 and C4 ECSs. The C3 and C4 ECSs use high-performance networks to improve comprehensive performance and stability, meeting the requirements of enterprise-level applications for high service stability and computing performance.
 
 DeH Specifications
 ------------------
