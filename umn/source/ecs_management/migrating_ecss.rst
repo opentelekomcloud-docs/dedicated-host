@@ -8,11 +8,11 @@ Migrating ECSs
 Scenarios
 ---------
 
-ECSs can be migrated between DeHs or between a DeH and a public resource pool.
+ECSs can be migrated between DeHs or between a DeH and a public resource pool. You can:
 
--  An ECS created on a DeH can be migrated to another DeH.
--  An ECS created on a DeH can be migrated to a public resource pool.
--  An ECS deployed in a public resource pool can be migrated to a DeH.
+-  Migrate an ECS on a DeH to another DeH.
+-  Migrate an ECS on a DeH to a public resource pool.
+-  Migrate an ECS in a public resource pool to a DeH.
 
    .. note::
 
@@ -38,7 +38,7 @@ Only a stopped ECS can be migrated.
 
    The DeH details page is displayed.
 
-#. On the **ECSs on the DeH** tab, query the status of the ECS to be migrated.
+#. On the **ECSs on the DeH** tab, view the status of the ECS to be migrated.
 
 #. Only a stopped ECS can be migrated. If the ECS is not stopped, click **More** and select **Stop** in the **Operation** column.
 
@@ -53,6 +53,6 @@ Only a stopped ECS can be migrated.
 
    .. note::
 
-      The ECS status changes from **Resizing** to **Stopped** during ECS migration.
+      The ECS status changes from **Resizing** to **Stopped** during migration.
 
-.. |image1| image:: /_static/images/en-us_image_0210485079.png
+.. |image1| image:: /_static/images/en-us_image_0000001850888056.png
