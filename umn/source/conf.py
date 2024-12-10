@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'deh-umn.tex',
-     u'Dedicated Host - User Guide',
+    u'Dedicated Host - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
