@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'deh-api-ref.tex',
-     u'Dedicated Host - API Reference',
+    u'Dedicated Host - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
