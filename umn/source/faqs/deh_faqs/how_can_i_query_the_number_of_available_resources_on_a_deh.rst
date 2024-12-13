@@ -5,7 +5,7 @@
 How Can I Query the Number of Available Resources on a DeH?
 ===========================================================
 
-You can view the total resources and available resources (vCPUs and memory) of each DeH on the DeH console.
+You can view the total and available resources (vCPUs and memory) of each DeH on the DeH console.
 
 
 .. figure:: /_static/images/en-us_image_0000001540675997.png
