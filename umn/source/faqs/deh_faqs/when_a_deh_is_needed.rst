@@ -5,4 +5,4 @@
 When a DeH Is Needed?
 =====================
 
-When your services are required to meet high compliance, security, or performance requirements, you can purchase DeHs. For more information, see :ref:`Application Scenarios <deh_01_0008>`.
+When your services demand high compliance, security, or performance, you can purchase a DeH and deploy the service on it. For more information, see :ref:`Application Scenarios <deh_01_0008>`.
