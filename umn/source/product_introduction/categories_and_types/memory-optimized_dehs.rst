@@ -46,7 +46,7 @@ DeH Specifications
 
    -  m4 DeHs
 
-      vCPUs = (2 x 22 x 2 - 14) x 1 = 74
+      vCPUs = (2 x 22 x 2 - 12) x 1 = 76
 
 ECSs Allowed on DeHs
 --------------------
