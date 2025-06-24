@@ -15,7 +15,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. Click |image1| in the upper left corner and select the desired region and project.
+#. Click |image1| in the upper left corner, and select a region and a project.
 
 #. Under **Computing**, click **Dedicated Host**.
 
@@ -28,6 +28,21 @@ Procedure
    -  **AZ**: AZ where DeHs are located
    -  **Auto Placement**: Whether **Auto Placement** is enabled.
    -  **Status**: DeH status
+
+      .. table:: **Table 1** Status
+
+         +-----------+------------------------------------------------------------------------------------------------------------------------------+
+         | Status    | Description                                                                                                                  |
+         +===========+==============================================================================================================================+
+         | Available | The DeH is running normally, and the instance can be started on the DeH.                                                     |
+         +-----------+------------------------------------------------------------------------------------------------------------------------------+
+         | Pending   | The DeH cannot be used to deploy new instances because the host is being initialized.                                        |
+         +-----------+------------------------------------------------------------------------------------------------------------------------------+
+         | Released  | The DeH has been released and cannot be used.                                                                                |
+         +-----------+------------------------------------------------------------------------------------------------------------------------------+
+         | Fault     | The DeH is faulty, and new instances cannot be started on the DeH. The O&M personnel need to replace the DeH with a new one. |
+         +-----------+------------------------------------------------------------------------------------------------------------------------------+
+
    -  **vCPUs**: Total number of vCPUs and available vCPUs
    -  **Memory(GiB)**: Total memory and available memory
    -  **Sockets**: Number of physical CPU sockets
