@@ -15,7 +15,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. Click |image1| in the upper left corner and select the desired region and project.
+#. Click |image1| in the upper left corner, and select a region and a project.
 
 #. Under **Computing**, click **Dedicated Host**.
 

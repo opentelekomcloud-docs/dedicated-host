@@ -15,6 +15,7 @@ DeH FAQs
 -  :ref:`What Are the Differences Between DeH and DeC? <deh_faq_0007>`
 -  :ref:`What Are the Differences Between DeHs and ECSs? <deh_faq_0008>`
 -  :ref:`How Can I Query the Number of Available Resources on a DeH? <deh_faq_0009>`
+-  :ref:`Why Is It Not Possible to Successfully Create an ECS on a DeH Even When There Are More Available Resources on the DeH Than What the ECS Requires? <deh_faq_0029>`
 -  :ref:`Does DeH Support Capacity Expansion? <deh_faq_0010>`
 -  :ref:`What Is BYOL? <deh_faq_0002>`
 -  :ref:`How Do I Bring My Own Licenses to a DeH? <deh_faq_0011>`
@@ -35,6 +36,7 @@ DeH FAQs
    what_are_the_differences_between_deh_and_dec
    what_are_the_differences_between_dehs_and_ecss
    how_can_i_query_the_number_of_available_resources_on_a_deh
+   why_is_it_not_possible_to_successfully_create_an_ecs_on_a_deh_even_when_there_are_more_available_resources_on_the_deh_than_what_the_ecs_requires
    does_deh_support_capacity_expansion
    what_is_byol
    how_do_i_bring_my_own_licenses_to_a_deh
