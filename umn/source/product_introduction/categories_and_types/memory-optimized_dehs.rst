@@ -8,7 +8,7 @@ Memory-Optimized DeHs
 Overview
 --------
 
-Memory-optimized DeHs are designed for processing large-scale data sets in the memory. They use the latest Intel Xeon Skylake CPUs, network acceleration engines, and Data Plane Development Kit (DPDK) to provide higher network performance, providing a maximum of 512 GB DDR4 memory for high-memory computing applications.
+Memory-optimized DeHs are designed for processing large-scale data sets in the memory. They use the latest Intel Xeon Skylake CPUs, network acceleration engines, and Data Plane Development Kit (DPDK) to provide higher network performance. They provide a maximum of 512 GB DDR4 memory for high-memory computing applications.
 
 Memory-optimized DeHs are classified into m3 and m4 DeHs.
 
@@ -32,7 +32,7 @@ DeH Specifications
    +-------------+-------------------+----------------------------+----------------------------------------------------------------------------------+-----------------+
    | Flavor Type | Number of Sockets | Number of Cores per Socket | Hardware Specifications                                                          | Number of vCPUs |
    +=============+===================+============================+==================================================================================+=================+
-   | m4          | 2                 | 22                         | -  CPU: Intel Cascade Lake 6266 (frequency: 3.00 GHz; Turbo frequency: 3.40 GHz) | 76              |
+   | m4          | 2                 | 22                         | -  CPU: Intel Cascade Lake 6266 (frequency: 3.00 GHz; turbo frequency: 3.40 GHz) | 76              |
    |             |                   |                            | -  Memory: 608 GB (or 622,592 MB)                                                |                 |
    +-------------+-------------------+----------------------------+----------------------------------------------------------------------------------+-----------------+
 
@@ -53,22 +53,22 @@ ECSs Allowed on DeHs
 
 .. table:: **Table 3** ECS flavors allowed on m3 DeHs
 
-   ============= ===== ==================
-   ECS Flavor    vCPUs Memory (RAM in GB)
-   ============= ===== ==================
+   ============= ===== ===================
+   ECS Flavor    vCPUs Memory (RAM in GiB)
+   ============= ===== ===================
    m3.large.8    2     16
    m3.xlarge.8   4     32
    m3.2xlarge.8  8     64
    m3.4xlarge.8  16    128
    m3.8xlarge.8  32    256
    m3.15xlarge.8 60    512
-   ============= ===== ==================
+   ============= ===== ===================
 
 .. table:: **Table 4** ECS flavors allowed on m4 DeHs
 
-   ============= ===== ==================
-   ECS Flavor    vCPUs Memory (RAM in GB)
-   ============= ===== ==================
+   ============= ===== ===================
+   ECS Flavor    vCPUs Memory (RAM in GiB)
+   ============= ===== ===================
    m4.large.8    2     16
    m4.xlarge.8   4     32
    m4.2xlarge.8  8     64
@@ -77,4 +77,4 @@ ECSs Allowed on DeHs
    m4.6xlarge.8  24    192
    m4.8xlarge.8  32    256
    m4.16xlarge.8 64    512
-   ============= ===== ==================
+   ============= ===== ===================

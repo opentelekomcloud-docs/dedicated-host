@@ -27,7 +27,7 @@ Procedure
 
 #. On the **ECSs on the DeH** tab, select the target ECSs.
 
-   You can select multiple ECSs by selecting the check box before the ECS name.
+   You can concurrently select all ECSs on the current page by selecting the check box in the list header.
 
    .. note::
 
@@ -42,4 +42,4 @@ Procedure
    -  **Restart** (allowed only when ECSs are running)
    -  **Delete**
 
-.. |image1| image:: /_static/images/en-us_image_0210485079.png
+.. |image1| image:: /_static/images/en-us_image_0000001850888056.png
