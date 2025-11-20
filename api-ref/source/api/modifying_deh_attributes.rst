@@ -66,7 +66,7 @@ None
 Example Request
 ---------------
 
-Set **auto_placement** to **off** to not allow an ECS to be placed on any available DeH. Change the name of the DeH to **DeH_vm3**.
+Set **auto_placement** to **off** to prevent an ECS from being placed on any available DeH. Change the name of the DeH to **DeH_vm3**.
 
 .. code-block:: text
 
