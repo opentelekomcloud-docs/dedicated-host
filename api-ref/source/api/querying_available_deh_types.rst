@@ -13,7 +13,7 @@ This API is used to query available DeH types in an AZ.
 URI
 ---
 
-Get /v1.0/{project_id}/availability-zone/{availability_zone}/dedicated-host-types
+GET /v1.0/{project_id}/availability-zone/{availability_zone}/dedicated-host-types
 
 :ref:`Table 1 <deh_02_0025__table572214121015>` describes the parameters.
 

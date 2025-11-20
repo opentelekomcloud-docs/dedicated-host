@@ -36,7 +36,7 @@ GET /v1.0/{project_id}/dedicated-hosts/{dedicated_host_id}/servers
 Request
 -------
 
-.. table:: **Table 2** Request parameters
+.. table:: **Table 2** Query parameters
 
    +-----------+-------+--------+-----------+----------------------------------------------------------------------------------------------------------------------------+
    | Parameter | In    | Type   | Mandatory | Description                                                                                                                |
@@ -100,7 +100,7 @@ Response
 
 .. _deh_02_0022__table08001321809:
 
-.. table:: **Table 5** Data structure of the network to which an ECS accesses
+.. table:: **Table 5** Data structure of the network to which an ECS connects
 
    +-------------------------+-----------------------+-----------------------------------------------------------------------------------------+
    | Parameter               | Type                  | Description                                                                             |
@@ -115,6 +115,9 @@ Response
    | OS-EXT-IPS-MAC:mac_addr | String                | Specifies the MAC address. This is an extended attribute.                               |
    +-------------------------+-----------------------+-----------------------------------------------------------------------------------------+
    | OS-EXT-IPS:type         | String                | Specifies the IP address assignment mode. This is an extended attribute.                |
+   |                         |                       |                                                                                         |
+   |                         |                       | -  **fixed**: indicates a private IP address.                                           |
+   |                         |                       | -  **floating**: indicates a floating IP address.                                       |
    +-------------------------+-----------------------+-----------------------------------------------------------------------------------------+
 
 .. _deh_02_0022__table13112134716015:
@@ -141,11 +144,11 @@ Response
 
 .. table:: **Table 8** **metadata** field description
 
-   ========= ====== ======================
-   Parameter Type   Description
-   ========= ====== ======================
-   os_type   String Specifies the OS type.
-   ========= ====== ======================
+   +-----------+--------+-------------------------------------------------------------------+
+   | Parameter | Type   | Description                                                       |
+   +===========+========+===================================================================+
+   | os_type   | String | Specifies the OS type. The value can be **Linux** or **Windows**. |
+   +-----------+--------+-------------------------------------------------------------------+
 
 Example Request
 ---------------

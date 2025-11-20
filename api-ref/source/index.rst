@@ -9,4 +9,5 @@ Dedicated Host - API Reference
    api/index
    permissions_and_actions/index
    public_parameters/index
+   appendix/index
    change_history

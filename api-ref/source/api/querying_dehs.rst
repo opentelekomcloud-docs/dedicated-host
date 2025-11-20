@@ -15,11 +15,11 @@ URI
 
 GET /v1.0/{project_id}/dedicated-hosts
 
-:ref:`Table 1 <deh_02_0020__table572214121015>` describes the parameters.
+:ref:`Table 1 <deh_02_0020__table572214121015>` describes the parameter in the URI.
 
 .. _deh_02_0020__table572214121015:
 
-.. table:: **Table 1** Parameters description
+.. table:: **Table 1** Parameter description
 
    +-----------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Parameter       | Type            | Mandatory       | Description                                                                                                                                                         |
@@ -32,11 +32,11 @@ GET /v1.0/{project_id}/dedicated-hosts
 Request
 -------
 
-You can add parameters **host_type**, **host_type_name**, **flavor**, **dedicated_host_id**, **state**, **tenant**, **availability_zone**, **name**, **limit**, **marker**, **tags**, **instance_uuid**, or **changes-since** to the URI to filter the search result,
+You can add parameters **host_type**, **host_type_name**, **flavor**, **dedicated_host_id**, **state**, **tenant**, **availability_zone**, **name**, **limit**, **marker**, **tags**, **instance_uuid**, or **changes-since** to the URI to filter the search result.
 
-for example, **/v1.0/{project_id}/dedicated-hosts?host_type={host_type}&state={state}**.
+Example: **/v1.0/{project_id}/dedicated-hosts?host_type={host_type}&state={state}**
 
-.. table:: **Table 2** Request parameters
+.. table:: **Table 2** Query parameters
 
    +-------------------+-------------+-------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Parameter         | In          | Type        | Mandatory   | Description                                                                                                                                                                           |
@@ -53,7 +53,11 @@ for example, **/v1.0/{project_id}/dedicated-hosts?host_type={host_type}&state={s
    +-------------------+-------------+-------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | state             | query       | String      | No          | Specifies the DeH status.                                                                                                                                                             |
    |                   |             |             |             |                                                                                                                                                                                       |
-   |                   |             |             |             | The value can be **available**, **fault**, or **released**.                                                                                                                           |
+   |                   |             |             |             | Range:                                                                                                                                                                                |
+   |                   |             |             |             |                                                                                                                                                                                       |
+   |                   |             |             |             | -  **available**                                                                                                                                                                      |
+   |                   |             |             |             | -  **fault**                                                                                                                                                                          |
+   |                   |             |             |             | -  **released**                                                                                                                                                                       |
    +-------------------+-------------+-------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | tenant            | query       | String      | No          | The value can be a tenant ID or **all**.                                                                                                                                              |
    |                   |             |             |             |                                                                                                                                                                                       |
