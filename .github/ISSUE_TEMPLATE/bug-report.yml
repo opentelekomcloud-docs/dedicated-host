@@ -32,27 +32,22 @@ body:
     attributes:
       label: Description
       description: Please provide detailed information about the bug
-      placeholder: "Bug detail description
+      placeholder: |
+                    Bug detail description:
                     Describe the bug in detail.
                     
-                    Preconditions
+                    Preconditions:
                     Specific configuration or resource setup needed to reproduce
                     
-                    How to reproduce
+                    How to reproduce:
                     Describe the simplest way to reproduce the scenario.
                     
-                    IDs of used resources
-                    Describe all relevant and impacted resources from the bug. The affected tenant and project IDs should be described.
-                    
-                    Result of the issue
+                    Result of the issue:
                     Describe the issue results.
                     
-                    Expected result
-                    Documentation (optional)
-                    To add additional documentation is use case depended. It should help to understand the bug faster from R&D.
-                    
-                    Workaround (optional)
-                    Described the workaround when exists. This information is important for the service approval KPIs."
+                    Expected result:
+                    Describe what you want to achieve.
+
     validations:
       required: true
 
@@ -64,4 +59,3 @@ body:
       placeholder: "Logs, error messages, screenshots, environment details..."
     validations:
       required: false
-  
