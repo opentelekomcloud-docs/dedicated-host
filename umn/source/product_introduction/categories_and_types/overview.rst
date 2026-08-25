@@ -12,7 +12,6 @@ The DeH configuration includes the number of CPUs (sockets), number of physical 
 The following DeH categories and types are supported:
 
 -  General-purpose DeHs
--  General computing-plus DeHs
 -  Dedicated general-purpose DeHs
 -  Memory-optimized DeHs
 -  Ultra-high I/O DeHs
