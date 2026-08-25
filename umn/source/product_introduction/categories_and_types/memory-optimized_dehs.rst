@@ -58,10 +58,14 @@ DeH Specifications
 
       vCPUs = (2 x 22 x 2 - 12) x 1 = 76
 
+   -  m7n DeHs
+
+      vCPUs = (2 x 28 x 2 - 12) x 1 = 100
+
 ECSs Allowed on DeHs
 --------------------
 
-.. table:: **Table 3** ECS flavors allowed on m3 DeHs
+.. table:: **Table 4** ECS flavors allowed on m3 DeHs
 
    ============= ===== ===================
    ECS Flavor    vCPUs Memory (RAM in GiB)
