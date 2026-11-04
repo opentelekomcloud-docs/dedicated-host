@@ -15,17 +15,17 @@ A tag consists of a tag key and a tag value. :ref:`Table 1 <deh_01_0038__table20
 
 .. table:: **Table 1** Tag naming requirements
 
-   +-----------------------+---------------------------------------------------------------------+-----------------------+
-   | Parameter             | Requirement                                                         | Example Value         |
-   +=======================+=====================================================================+=======================+
-   | Tag key               | -  Cannot be left blank.                                            | Organization          |
-   |                       | -  Must be unique for a specific DeH.                               |                       |
-   |                       | -  Contains a maximum of 36 characters.                             |                       |
-   |                       | -  Contains only digits, letters, hyphens (-), and underscores (_). |                       |
-   +-----------------------+---------------------------------------------------------------------+-----------------------+
-   | Tag value             | -  Contains a maximum of 43 characters.                             | Apache                |
-   |                       | -  Contains only digits, letters, hyphens (-), and underscores (_). |                       |
-   +-----------------------+---------------------------------------------------------------------+-----------------------+
+   +-----------------------+--------------------------------------------------------------------------------------------+-----------------------+
+   | Parameter             | Requirement                                                                                | Example Value         |
+   +=======================+============================================================================================+=======================+
+   | Tag key               | -  Cannot be left blank.                                                                   | Organization          |
+   |                       | -  Must be unique for a specific DeH.                                                      |                       |
+   |                       | -  Contains a maximum of 36 characters.                                                    |                       |
+   |                       | -  Only letters, digits, hyphens (-), underscores (_), and Unicode characters are allowed. |                       |
+   +-----------------------+--------------------------------------------------------------------------------------------+-----------------------+
+   | Tag value             | -  Contains a maximum of 43 characters.                                                    | Apache                |
+   |                       | -  Only letters, digits, hyphens (-), underscores (_), and Unicode characters are allowed. |                       |
+   +-----------------------+--------------------------------------------------------------------------------------------+-----------------------+
 
 Searching for DeHs
 ------------------
